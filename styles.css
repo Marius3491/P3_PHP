@@ -1,0 +1,98 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Gris claro */
+    color: #333; /* Gris oscuro para el texto */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #007BFF; /* Azul */
+}
+
+/* Barra de navegación */
+nav {
+    background-color: #007BFF; /* Azul */
+    text-align: center; /* Alinea el contenido al centro */
+    padding: 10px 0; /* Agrega espacio interno superior e inferior */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Elimina el margen predeterminado */
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Texto blanco */
+}
+
+/* Formularios */
+form {
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px;
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; /* Gris oscuro para las etiquetas */
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #007BFF; /* Azul */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Tabla de datos */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff; /* Fondo blanco */
+    margin-top: 20px;
+    border: 1px solid #ccc; /* Borde gris claro */
+}
+
+table th,
+table td {
+    padding: 10px;
+    border: 1px solid #ccc; /* Borde gris claro */
+}
+
+table th {
+    background-color: #007BFF; /* Azul */
+    color: #fff;
+}
+
+/* Enlaces */
+a {
+    color: #007BFF; /* Azul para enlaces */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
